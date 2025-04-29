@@ -2,6 +2,13 @@
 
 This repository provides a lightweight Node.js implementation to encrypt payloads for Canara Bank's API Banking system using **JWE (JSON Web Encryption)** as per their specifications. The payload and encryption key are provided by the **Canara Bank API Team**.
 
+📤 Payload Format (Provided by Canara Bank)
+You will receive:
+
+encrypt – The JSON payload that must be encrypted
+
+key – A symmetric key in hexadecimal format
+
 ## 📦 Features
 
 - 🔐 Encrypts sensitive banking data using JWE standard
@@ -24,9 +31,3 @@ This repository provides a lightweight Node.js implementation to encrypt payload
 ```bash
 npm install jose uint8array-json-parser
 
-📤 Payload Format (Provided by Canara Bank)
-You will receive:
-
-encrypt – The JSON payload that must be encrypted
-
-key – A symmetric key in hexadecimal format
